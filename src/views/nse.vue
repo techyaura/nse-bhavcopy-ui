@@ -73,7 +73,7 @@ export default {
   },
   methods: {
     fetchBahvCopy() {
-      return fetch(`${process.env.VUE_APP_NSE}nse`, {
+      return fetch(`https://aged-hourglass.glitch.me/nse`, {
         method: "GET"
       })
         .then(response => {
