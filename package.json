@@ -1,0 +1,81 @@
+{
+  "name": "tplanner-vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@mdi/font": "^3.6.95",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-context": "^1.0.18",
+    "apollo-link-error": "^1.1.11",
+    "apollo-link-http": "^1.5.15",
+    "core-js": "^2.6.5",
+    "graphql": "^14.5.3",
+    "graphql-tag": "^2.10.1",
+    "material-design-icons-iconfont": "^5.0.1",
+    "register-service-worker": "^1.6.2",
+    "roboto-fontface": "*",
+    "vue": "^2.6.10",
+    "vue-apollo": "^3.0.0-rc.2",
+    "vue-router": "^3.0.3",
+    "vuedraggable": "^2.23.0",
+    "vuetify": "^2.0.0",
+    "vuetify-toast-snackbar": "^0.5.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^3.10.0",
+    "@vue/cli-plugin-pwa": "^3.10.0",
+    "@vue/cli-plugin-unit-mocha": "^3.10.0",
+    "@vue/cli-service": "^3.10.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-vuetify": "^0.6.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/airbnb"
+    ],
+    "rules": {
+      "max-len": 0,
+      "no-underscore-dangle": 0,
+      "global-require": 0,
+      "indent": [
+        "error",
+        2
+      ],
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "no-param-reassign": 0,
+      "no-prototype-builtins": 0
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "globals": {
+      "localStorage": true
+    }
+  }
+}
