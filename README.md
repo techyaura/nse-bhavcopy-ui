@@ -1,4 +1,4 @@
-# tplanner-todo
+# nse-bhavcopy-UI
 
 ## Project setup
 ```
